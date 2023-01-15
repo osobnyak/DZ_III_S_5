@@ -4,6 +4,7 @@
 double[] num = new double[10];
 double max = 0;
 double min = 0;
+double res = 0;
 
 for (int i = 0; i < num.Length; i++)
 {
@@ -24,6 +25,9 @@ Console.WriteLine(max);
 Console.Write("min = ");
 Console.WriteLine(min);
 
+res = max - min;
+Console.Write("разница = ");
+Console.WriteLine(res);
 
 
 
